@@ -1,0 +1,111 @@
+{
+	"info": {
+		"_postman_id": "b11260e2-fa47-4e15-ba75-3474fc246667",
+		"name": "Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "17597349"
+	},
+	"item": [
+		{
+			"name": "Upload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/300074328/Documents/Search/product_ids_page5.txt"
+						}
+					]
+				},
+				"url": "http://localhost:8080/files/upload"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/300074328/Documents/Search/product_ids_page5.txt"
+						}
+					]
+				},
+				"url": "http://localhost:8080/files/a85b97e7-1a2e-4afe-9b03-0ac114d6ea4c"
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/300074328/Documents/Search/product_ids_page5.txt"
+						}
+					]
+				},
+				"url": "http://localhost:8080/files/a85b97e7-1a2e-4afe-9b03-0ac114d6ea4c"
+			},
+			"response": []
+		},
+		{
+			"name": "Get All",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/300074328/Documents/Search/product_ids_page5.txt"
+						}
+					]
+				},
+				"url": "http://localhost:8080/files"
+			},
+			"response": []
+		},
+		{
+			"name": "Get",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/300074328/Documents/Search/product_ids_page5.txt"
+						}
+					]
+				},
+				"url": "http://localhost:8080/files"
+			},
+			"response": []
+		}
+	]
+}
